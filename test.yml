@@ -1,0 +1,8 @@
+language: java
+build_tool:
+   name: maven
+   version: 3.4
+vcs:
+   name: git
+license: mit
+readme: true
