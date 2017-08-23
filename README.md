@@ -9,12 +9,22 @@ It uses templates to setup files.
 Example recipe:
 ```yaml
 ---
+name: Test
+description: This is a test project for Quicken!
+owner:
+    name: Name Surname
+    email: name.sur@example.com
+    organization: Example
+    url: example.com
 language: java
-build_tool: 
+build_tool:
    name: maven
-   version: 3.5
-vcs: 
-   name: git
+   version: 3.4
+git:
+    init: true
+    remote:
+        name: origin
+        url: https://github.com/matteojoliveau/quicken
 license: mit
 readme: true
 ```
