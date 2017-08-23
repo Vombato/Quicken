@@ -1,8 +1,10 @@
+name: Test
+description: This is a test project for Quicken!
 language: java
 build_tool:
    name: maven
    version: 3.4
-vcs:
-   name: git
+git:
+  init: true
 license: mit
 readme: true

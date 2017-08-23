@@ -3,6 +3,7 @@ package cmd
 import (
 	"fmt"
 	"github.com/spf13/cobra"
+	"github.com/matteojoliveau/quicken/utils"
 )
 
 func init() {
@@ -14,6 +15,8 @@ var versionCmd = &cobra.Command{
 	Short: "Print the version number of Quicken",
 	Long:  `All software has versions. This is Quicken's`,
 	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println(`Quicken Project Generator v0.1`)
+		ver := utils.Version
+		fmt.Printf("Quicken Project Generator\n Version: %s\n", ver)
 	},
+
 }
