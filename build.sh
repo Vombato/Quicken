@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 NAMESPACE=github.com/matteojoliveau/quicken
-MODULES="cmd/ modules/ recipe/ utils/"
+MODULES="cmd/ modules/ recipe/ utils/ resources/"
 WORKDIR=build/go/src
 sep="-----------------------------------"
 echo ${sep}
