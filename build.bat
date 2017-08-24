@@ -6,10 +6,8 @@ SET APP_PATH=%~dp0
 cd /d %~dp0
 ECHO
 SET NAMESPACE=github.com/matteojoliveau/quicken
-SET MODULES=cmd modules recipe utils
+SET MODULES=cmd modules recipe utils resources
 SET WORKDIR=%APP_PATH%build\go\src
-ECHO %WORKDIR%
-
 if not exist %WORKDIR% mkdir "%WORKDIR%\%NAMESPACE%"
 
 setlocal ENABLEDELAYEDEXPANSION

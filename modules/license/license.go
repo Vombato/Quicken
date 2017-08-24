@@ -3,12 +3,11 @@ package license
 import (
 	"time"
 	"fmt"
-	"path/filepath"
 	"log"
-	"io/ioutil"
 	"os"
 	"github.com/matteojoliveau/quicken/utils"
 	"text/template"
+	"github.com/matteojoliveau/quicken/resources/templates/licenses"
 )
 
 type License struct {
@@ -28,14 +27,8 @@ func Create(license string, name string) {
 			fmt.Println("LICENSE file already existent")
 		} else {
 			fmt.Println("Creating file 'LICENSE'")
-			abs, absErr := filepath.Abs(fmt.Sprintf("resources/templates/licenses/%s.tmpl", license))
-			if absErr != nil {
-				log.Fatal(absErr)
-			}
-			templateFile, tempErr := ioutil.ReadFile(abs)
-			if tempErr != nil {
-				log.Fatal(tempErr)
-			}
+
+			templateFile := licenses.Licenses[license]
 
 			t, parseErr := template.New("license").Parse(string(templateFile))
 			if parseErr != nil {
