@@ -27,6 +27,8 @@ var initCmd = &cobra.Command{
 		r := recipe.ParseRecipe(recipePath)
 
 
+
+
 		//Git
 		gitR := r.Git
 		if gitR.Init {
