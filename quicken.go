@@ -1,10 +1,10 @@
-package src
+package quicken
 
 import (
 	"fmt"
 	"os"
 
-	"github.com/matteojoliveau/quicken/src/cmd"
+	"github.com/matteojoliveau/quicken/cmd"
 )
 
 func main() {

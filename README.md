@@ -32,11 +32,11 @@ readme: true
 ## Example usage
 If in a folder containing a recipe.yml file,
 
-`qk init`
+`qk.exe.exe init`
 
 To specify a particular recipe:
 
-`qk init --recipe path/to/recipe.yml`
+`qk.exe.exe init --recipe path/to/recipe.yml`
 
 
 

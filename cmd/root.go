@@ -5,7 +5,7 @@ import (
 )
 
 var RootCmd = &cobra.Command{
-	Use:   "qk",
+	Use:   "qk.exe.exe",
 	Short: "Quicken",
 	Long: `Quicken is a command line tool to generate software project based on clear, repeatable recipes`,
 	Run: func(cmd *cobra.Command, args []string) {

@@ -3,7 +3,7 @@ package git
 import (
 	"os/exec"
 	"fmt"
-	"github.com/matteojoliveau/quicken/src/utils"
+	"github.com/matteojoliveau/quicken/utils"
 )
 
 func InitRepo() error {

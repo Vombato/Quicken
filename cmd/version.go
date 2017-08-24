@@ -3,7 +3,7 @@ package cmd
 import (
 	"fmt"
 	"github.com/spf13/cobra"
-	"github.com/matteojoliveau/quicken/src/utils"
+	"github.com/matteojoliveau/quicken/utils"
 )
 
 func init() {
