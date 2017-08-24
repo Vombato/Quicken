@@ -1,6 +1,8 @@
 package readme
 
 import (
+	"io/ioutil"
+	"path/filepath"
 	"log"
 	"text/template"
 	"os"
@@ -24,9 +26,16 @@ func Create(r *Readme) {
 			fmt.Println("README file already existent")
 		} else {
 			fmt.Println("Creating file 'README.md'")
+			//abs, absErr := filepath.Abs("resources/templates/Readme.md.tmpl")
+			//if absErr != nil {
+			//	log.Fatal(absErr)
+			//}
+			//templateFile, tempErr := ioutil.ReadFile(abs)
+			//if tempErr != nil {
+			//	log.Fatal(tempErr)
+			//}
 
 			templateFile := templates.Readme
-
 			t, parseErr := template.New("readme").Parse(string(templateFile))
 			if parseErr != nil {
 				log.Fatal(parseErr)
