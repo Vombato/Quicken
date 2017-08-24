@@ -1,10 +1,10 @@
-package main
+package src
 
 import (
 	"fmt"
 	"os"
 
-	"github.com/matteojoliveau/quicken/cmd"
+	"github.com/matteojoliveau/quicken/src/cmd"
 )
 
 func main() {

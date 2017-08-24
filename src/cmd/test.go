@@ -1,8 +1,8 @@
 package cmd
 
 import (
-	"github.com/matteojoliveau/quicken/recipe"
-	git "github.com/matteojoliveau/quicken/modules/git"
+	"github.com/matteojoliveau/quicken/src/recipe"
+	git "github.com/matteojoliveau/quicken/src/modules/git"
 	"fmt"
 	"github.com/spf13/cobra"
 	"log"

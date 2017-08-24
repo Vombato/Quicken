@@ -1,0 +1,3 @@
+[submodule "go_cmake"]
+	path = go_cmake
+	url = https://github.com/cpconduce/go_cmake.git

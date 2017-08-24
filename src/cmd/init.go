@@ -2,13 +2,12 @@ package cmd
 
 import (
 	"github.com/spf13/cobra"
-	"github.com/matteojoliveau/quicken/recipe"
-	//"github.com/matteojoliveau/quicken/modules/git"
-	"github.com/matteojoliveau/quicken/modules/readme"
+	"github.com/matteojoliveau/quicken/src/recipe"
+	"github.com/matteojoliveau/quicken/src/modules/readme"
 	"fmt"
-	"github.com/matteojoliveau/quicken/utils"
-	"github.com/matteojoliveau/quicken/modules/git"
-	"github.com/matteojoliveau/quicken/modules/license"
+	"github.com/matteojoliveau/quicken/src/utils"
+	"github.com/matteojoliveau/quicken/src/modules/git"
+	"github.com/matteojoliveau/quicken/src/modules/license"
 )
 
 var recipePath string

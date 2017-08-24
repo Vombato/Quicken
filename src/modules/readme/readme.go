@@ -7,7 +7,7 @@ import (
 	"text/template"
 	"os"
 	"fmt"
-	"github.com/matteojoliveau/quicken/utils"
+	"github.com/matteojoliveau/quicken/src/utils"
 )
 
 type Readme struct {

@@ -7,7 +7,7 @@ import (
 	"log"
 	"io/ioutil"
 	"os"
-	"github.com/matteojoliveau/quicken/utils"
+	"github.com/matteojoliveau/quicken/src/utils"
 	"text/template"
 )
 
