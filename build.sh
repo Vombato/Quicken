@@ -27,5 +27,5 @@ wait $!
 printf "Building project...\n\n"
 env GOPATH=${GOPATH} go build -o build/qk
 wait $!
-printf "Done!"
+printf "Done!\n"
 chmod +x build/
