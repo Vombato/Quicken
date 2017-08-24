@@ -1,8 +1,6 @@
 package readme
 
 import (
-	"io/ioutil"
-	"path/filepath"
 	"log"
 	"text/template"
 	"os"

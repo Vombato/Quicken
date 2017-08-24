@@ -3,9 +3,7 @@ package license
 import (
 	"time"
 	"fmt"
-	"path/filepath"
 	"log"
-	"io/ioutil"
 	"os"
 	"github.com/matteojoliveau/quicken/utils"
 	"text/template"

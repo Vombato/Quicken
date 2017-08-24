@@ -38,6 +38,20 @@ To specify a particular recipe:
 
 `qk init --recipe path/to/recipe.yml`
 
+## Build from sources
+
+#### Unix:
+`./build.sh`
+To avoid downloading the dependencies (useful for development, or for subsequent invocations of the build
+script):
+`./build.sh -d`
+
+#### Windows:
+CMD: `build.bat [-d]`
+PowerShell: `.\build.bat [-d]`
+
+This produces an executable named `qk` (on Unix systems) or `qk.exe` (on Windows systems)
+
 
 
 
