@@ -1,4 +1,4 @@
-package quicken
+package main
 
 import (
 	"fmt"

@@ -4,6 +4,6 @@ version: 0.1.0-SNAPSHOT
 owner: Matteo Joliveau
 email: matteojoliveau@gmail.com
 license: mpl2
-executable_name: qk.exe
+executable_name: qk
 vcs: {}
 dependencies: []
