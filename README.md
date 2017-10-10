@@ -1,6 +1,6 @@
 # Quicken
 Stimulate your development! Quicken is a command line tool to generate software project based on clear, repeatable recipes.
-***WARNING*** Under development, not ready for usage
+***WARNING***: Under development, not ready for usage!
 
 Quicken is a software project scaffolder written in Go.
 It allows to create projects based on a "recipe" that defines the language, needed tools (build tools like Maven, Gradle or SCons, VCSs like Git or Mercurial), license and other parameters.
