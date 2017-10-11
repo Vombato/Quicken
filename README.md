@@ -50,8 +50,4 @@ script):
 CMD: `build.bat [-d]`
 PowerShell: `.\build.bat [-d]`
 
-This produces an executable named `qk` (on Unix systems) or `qk.exe` (on Windows systems)
-
-
-
-
+This produces an executable named `qk` (on Unix systems) or `qk.exe` (on Windows systems).
